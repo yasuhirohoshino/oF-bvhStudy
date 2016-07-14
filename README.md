@@ -1,5 +1,8 @@
 # oF-bvhStudy
 
+<iframe src="https://player.vimeo.com/video/174625331?byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/174625331">openFrameworks bvh Study</a> from <a href="https://vimeo.com/yasuhirohoshino">Yasuhiro Hoshino</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 ## dependence
 
 ofxBvh
@@ -19,6 +22,12 @@ https://github.com/jvcleave/ofxImGui
 
 ofxJSON
 https://github.com/jefftimesten/ofxJSON
+
+## others
+
+.bvh file is downloaded from https://sites.google.com/a/cgspeed.com/cgspeed/motion-capture/cmu-bvh-conversion
+
+HDR image is downloaded from http://zbyg.deviantart.com/art/HDRi-Pack-2-103458406
 
 -
 
