@@ -49,12 +49,12 @@ void ofApp::setup() {
 		lifetime[i] = 1;
 	}
 
-	tf.setup(numParticles);
+	tf.setup(numParticles, "shaders/tf.vert");
 	tf.addBufferObject("inPosition", "outPosition", 3, GL_RGB32F, position);
 	tf.addBufferObject("inVelocity", "outVelocity", 3, GL_RGB32F, velocity);
 	tf.addBufferObject("inAge", "outAge", 1, GL_R32F, age);
 	tf.addBufferObject("inLifetime", "outLifetime", 1, GL_R32F, lifetime);
-	tf.generate("shaders/tf.vert");
+	tf.generate();
 
 	fileName = "05_05.bvh";
 	bvh.load(fileName);
